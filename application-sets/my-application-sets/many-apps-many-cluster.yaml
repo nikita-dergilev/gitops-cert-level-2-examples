@@ -18,7 +18,7 @@ spec:
                 
   template:
     metadata:
-      name: '{{path.basename}}-{{name}}'
+      name: '{{path.basename}}-{{server}}'
     spec:
       project: 'default'
       source:
